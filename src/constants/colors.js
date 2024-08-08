@@ -37,7 +37,7 @@ export default {
     backgroundBlurLight: 'rgba(145, 145, 145, 0.6)',
 
     // new pallet 2
-    mainColorP2: 'rgba(107,126,225,1)',
+    mainColorP2: 'rgba(107,126,225,2)',
     borderRadius: 16,
     maxFontSizeMultiplier: 1.2,
     screenHeight: height,
