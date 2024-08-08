@@ -5,7 +5,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context'
 const { width, height } = Dimensions.get('window')
 export default {
     // placeHolder: '#9f7676',
-    placeHolder: 'rgba(117,113,154,1)',
+    placeHolder: 'rgba(117,113,154,2)',
     buttonColor: '#d3a3f9',
     textColor: '#3f016e',
     textInputBg: 'rgba(197,198,186,1)',
