@@ -42,7 +42,6 @@ export default {
   maxFontSizeMultiplier: 1.2,
   screenHeight: height,
   screenWidth: width,
-
   rowHeight: (width * 16) / 9,
 
   androidFont: 'open-sans',
