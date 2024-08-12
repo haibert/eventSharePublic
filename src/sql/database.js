@@ -3,7 +3,6 @@ const db = SQLite.openDatabase('local.db')
 
 export const insertCameraPermissions = (feature, status) => {
     const promise = new Promise((resolve, reject) => {
-        //mkayyyyyyy laddie?
         db.transaction((tx) => {
             tx.executeSql(
                 `INSERT INTO permissions (feature, status) VALUES (?, ?);`,
@@ -22,7 +21,6 @@ export const insertCameraPermissions = (feature, status) => {
 
 export const fetchPermissions = () => {
     const promise = new Promise((resolve, reject) => {
-        //nobody likes DB transactions 
         db.transaction((tx) => {
             tx.executeSql(
                 'SELECT * FROM permissions',
