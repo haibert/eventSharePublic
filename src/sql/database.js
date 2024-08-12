@@ -21,6 +21,7 @@ export const insertCameraPermissions = (feature, status) => {
 
 export const fetchPermissions = () => {
     const promise = new Promise((resolve, reject) => {
+        //nobody likes DB transactions 
         db.transaction((tx) => {
             tx.executeSql(
                 'SELECT * FROM permissions',
