@@ -12,6 +12,8 @@ const makeSureDirectoryExists = async ({ directory }) => {
 export const cleanupCache = async ({ size = 400 } = { size: 400 }) => {
     const filesystemURI = FileSystem.cacheDirectory + 'images/'
 
+    console.log("teset")
+
     makeSureDirectoryExists({ directory: filesystemURI })
 
     // await makeSureDirectoryExists({ directory: filesystemURI })
@@ -67,4 +69,5 @@ export const cleanupCache = async ({ size = 400 } = { size: 400 }) => {
             sumSize -= results[i].size
         }
     }
+    console.log("done")
 }
