@@ -72,6 +72,7 @@ function getDrawerState(route) {
     const routeName = getFocusedRouteNameFromRoute(route) ?? 'DashboardScreen'
     console.log(routeName)
 
+    const ok = "ok?"
     switch (routeName) {
         case 'GalleryView':
             return false
