@@ -17,8 +17,7 @@
 // import Image17 from './imgs/Image17.jpg'
 
 // const images = [
-//     { id: 1, picture: Image1, title: 'Trees' },
-//     { id: 2, picture: Image2, title: 'The Man' },
+//     { id: 1, picture: Image1, title: 'Two Trees' },
 //     { id: 3, picture: Image3, title: 'Smoke' },
 //     { id: 4, picture: Image4, title: 'Big Rocks' },
 //     { id: 5, picture: Image5, title: 'Mountains' },
